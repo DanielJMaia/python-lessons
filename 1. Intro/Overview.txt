@@ -1,0 +1,38 @@
+Intro
+
+Python is a very popular language, very commonly used for web development and general application creation. It's commonly used to connect to databases and can read and modify files.
+It's a good language for people at a beginner level because the syntax is more similar to the english language than others, it's easier to look at blocks of python code and understand them using logic instead of knowing what each specific line of code means.
+
+Installing Anaconda and Git Bash
+
+Big download button on https://www.anaconda.com/products/individual
+
+Don't add it to the PATH, keep everything default. 
+
+Install git - https://git-scm.com/
+
+Blogpost - https://grokshop.tv/how-to-download-install-git-on-windows-10/
+Install the normal version, not the portable one.
+SHOW PIC 1
+You can choose whichever editor you like, I usually just leave it default. PIC 2
+SHOW PIC 3, explain that you should probably leave it at default to avoid any conflicts between git and other command line software, if you know what you're doing and don't think you'll have any conflicts you can also go for option 3.
+Next section keep the default OpenSSL library option.
+PIC 4, once again it's a matter of preference, if you're familiar and comfortable with linus line endings you can select the second option but unless you want that specifically just keep it as the first one.
+PIC 5, just keep it at default
+PIC 6, once again just keep it at default
+
+Open command prompt and type git status. If you get an error message "fatal: not a git repository" it means it's recognising that git is installed instead of saying git isn't a recognised command.
+
+You can now start using git bash instead of command line.
+
+
+go in terminal and type python to test that it's been installed correctly
+
+create virtual environment - python -m venv virt
+
+start the virtual environment - source virt/scripts/activate (deactivate to turn off)
+
+Create a github account, create your first git repository. Connect to the repository, and create the very first index.html file. 
+
+Finally, run it on a local server using python -m http.server. 
+
